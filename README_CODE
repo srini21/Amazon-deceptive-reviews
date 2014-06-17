@@ -1,0 +1,42 @@
+****************************************
+Main files:
+getDeceptive.py
+
+Uses scikit learn to detect deceptive reviews. Uses PU learning for Amazon data and SVM to classify tripadvisor data. 
+
+Arguments : 
+1 Positive Labeled File
+2 Negative Labeled File
+3 Number of reviews to be taken for Training
+4 Positive labeld File
+5 Negative labeled File
+6 Number of reviews to be taken for testing. 
+
+----------------------------------------------------------------------------------
+
+getauthorship.py
+
+Input: Hardcoded directory where the Amazon author exists. 
+
+Trains and tests on the given data for authorship prediction. Uses OneVsRest Classifier from scikit learn. 
+
+
+
+
+****************************************
+
+Preprocessing files:
+
+amazon_edit.py
+anontesting.py
+compressyelp.py
+featureextraction.py
+features.py
+findCulprit.py
+generateSVMfiles.py
+get*autthors.py
+parse1.py
+parse2.py
+parse3.py
+----------------------------------------------
+
